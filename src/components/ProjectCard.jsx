@@ -17,7 +17,7 @@ const ProjectCard = ({title, description, image, tech, demo, code,icons}) => {
           }
         </div>
         <div className='flex gap-2 '>
-          <a href={demo} className='flex-1 text-center px-4 py-2 bg-cyan-600 rounded-lg font-medium hover:bg-lime-700 transition duration-300'>
+          <a href={demo} className='flex-1 text-center px-4 py-2 bg-cyan-600 rounded-lg font-medium hover:bg-cyan-300 transition duration-300'>
             View Demo
           </a>
           <a href={code} className='flex-1 text-center px-4 py-2 rounded-lg

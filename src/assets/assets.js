@@ -12,9 +12,12 @@ import {
   FaDatabase,
   FaCloud,
   FaRobot,
+  FaExchangeAlt
   
 } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
+import { SiVite, SiJavascript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 import profileImg from "../assets/profile.avif";
 import projectImg1 from "../assets/project1.avif";
@@ -90,6 +93,29 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+  title: "Unit and Currency Converter",
+  description:
+    "A modern React-based unit converter supporting length, weight, time, temperature, and real-time currency conversion with a clean, responsive UI and optimized API integration.",
+  image: projectImg3, // Replace with your project image variable
+  tech: [
+    "React.js",
+    "Vite",
+    "Tailwind CSS v4",
+    "JavaScript",
+    "REST API"
+  ],
+  icons: [
+    FaReact,
+    SiVite,
+    RiTailwindCssFill,
+    SiJavascript,
+    FaExchangeAlt
+  ],
+  demo: "https://unit-and-currency-converter.vercel.app",
+  code: "https://github.com/kishor-abhijeet/unit-and-currency-converter-.git",
+}
+  ,
   {
     title: "TechKnowUp",
     description:
